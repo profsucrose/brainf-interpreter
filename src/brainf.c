@@ -106,10 +106,6 @@ void interpret(Command* program) {
     }
 }
 
-double time_diff(start, end) {
-    return ((double) (end - start)) / CLOCKS_PER_SEC;
-}
-
 int main(int argc, const char* argv[]) {
     if (argc == 1) {
         printf("<interpreter> file.bf\n");
